@@ -1,12 +1,12 @@
 # ExaminationSystem 📃✒️✅
 
 The main objective of this examination system is to automate the random generation of exams, performing them online and correcting them based on model answers.
-It was designed and constructed using **MySQLServer database and C# EntityFramework.**
+It was designed and constructed using **MySQLServer database and C# EntityFramework Core.**
 
 
-Instructors can choose how many models of the exam should be generated on each course subject.
-They can choose the format of the exam, number of MCQ, True or False and Essay Questions on each course subject.
-They can also track how many students took the exam and how well they did on it based on a mark-percentage grading system.
+Instructors can choose how many models of the exam to be generated on each course topic.
+They can choose the format of the exam, number of MCQ, True or False and Essay Questions on each course topic.
+They can also track how many students took the exam and how well they did based on a mark-percentage grading system.
 
 
 Students can take the exam online with all randomly-set questions appearing one after one with their potential answers.
@@ -40,17 +40,14 @@ Used Crystal Report for report design and stored procedures to return data for e
 Instructor:
 
 * Login/Logout: User have to login with their credentials to access the examination system.
-* Insert Exam Questions: Instructor can feed the system the sample questions and their answers.
+* Insert Exam Questions: Instructor can feed the system the sample questions of the exams and their answers.
 * Generate Exam: Instructor can choose the format of the exam, number of MCQ, True or False and Essay Questions.
-* View live Results: Instructor can track students results right after they submit their answers.
+* View live Results: Instructor can track students results right after they submit their final answers.
 
 Student:
 
 * Login/Logout: User have to login with their credentials to access the exam.
 * Answer Exam Questions: Student can submit the answer of each exam question one after the other.
+* Edit Exam Answers: Student can edit their previous exam answers before submission of the exam.
 * View Exam Result: Student can view the result of the exam after final submission of the exam on time.
-* View live Results: Instructor can track students results right after they submit their answers.
 
-#
-
-Images from the system:
